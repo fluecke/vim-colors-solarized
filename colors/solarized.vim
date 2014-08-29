@@ -758,9 +758,9 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
 "exe "hi! gitcommitBlank"
 " }}}
 " vim-gitgutter highlighting {{{
-exe "hi! lineAdded"         .s:fmt_bold .s:fg_green  .s:bg_base02
-exe "hi! lineModified"      .s:fmt_bold .s:fg_yellow .s:bg_base02
-exe "hi! lineRemoved"       .s:fmt_bold .s:fg_red    .s:bg_base02
+exe "hi! GitGutterAdd"         .s:fmt_bold .s:fg_green  .s:bg_base02
+exe "hi! GitGutterChange"      .s:fmt_bold .s:fg_yellow .s:bg_base02
+exe "hi! GitGutterDelete"       .s:fmt_bold .s:fg_red    .s:bg_base02
 " }}}
 " html highlighting "{{{
 " ---------------------------------------------------------------------
